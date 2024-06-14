@@ -1,5 +1,6 @@
-# Ignore the __pycache__ directory
-__pycache__
+# Ignore the __pycache__ directory and .ipynb_checkpoints
+__pycache__/
+.ipynb_checkpoints/
 
 # Ignore compiled bytecode files
-.pyc
+*.pyc
