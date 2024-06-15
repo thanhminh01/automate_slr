@@ -1,4 +1,5 @@
 class Synthesis:
+    # For storing research topic and eligible documents of the research topic for synthesis
     def __init__(self, topic, eligible_documents=None):
         if eligible_documents is None:
             eligible_documents = []

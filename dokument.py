@@ -1,4 +1,5 @@
 class Dokument:
+    # For storing data of individual documents
     def __init__(self, DOI, raw_data):
         self.DOI = DOI
         self.raw_data = raw_data
