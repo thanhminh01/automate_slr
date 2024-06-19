@@ -10,6 +10,4 @@ class Dokument:
         self.rob2_sqa = ""
         self.rob2 = ""
         # For synthesis
-        self.eligibility =""
         self.codes = ""
-        self.themes = ""
