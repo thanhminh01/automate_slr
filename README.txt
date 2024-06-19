@@ -118,27 +118,20 @@ Cell 3: Define a template for extracting codes from documents and create the cod
 
 Cell 4: Define an asynchronous function to assign codes to each document and print the assigned codes.
 
-Cell 5: Define a template for identifying themes from coded data and create the thematic analysis processing chain.
+Cell 5: Prepare the list of all codes output and check if it's token count is within the model's limit.
 
-Cell 6: Define an asynchronous function to identify themes from the coded data and print the identified themes.
+Cell 6: Define a template for identifying themes from coded data and create the thematic analysis processing chain.
 
-Cell 7: Prepare the themes output and check if it's token count is within the model's limit.
+Cell 7: Invoke the synthesis chain to generate the final list of overarching themes and print the result.
 
-Cell 8: Define a template for synthesizing overarching themes and create the synthesis processing chain.
+Cell 8: Save the result into a new file with "_finished" added to the file name.
 
-Cell 9: Invoke the synthesis chain to generate the final list of overarching themes and print the result.
+**Cell 9 onwards: Optional for viewing results, can be executed seperately from the previous cells.**
 
-Cell 10: Save the synthesis result into a new file with "_finished" added to the file name.
+Cell 9: Load the final synthesis_task_result object from the pickle file and print the research topic.
 
-**Cell 11 onwards: Optional for viewing results, can be executed seperately from the previous cells.**
-
-Cell 11: Load the final synthesis_task_result object from the pickle file and print the research topic.
-
-Cell 12 (Optional)
+Cell 10 (Optional)
 Print the codes of a specified document by its index.
 
-Cell 13 (Optional)
-Print the themes of a specified document by its index.
-
-Cell 14 (Optional)
-Print the synthesis result from processing all eligible documents.
+Cell 11 (Optional)
+Print the identified themes
